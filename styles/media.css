@@ -1,0 +1,105 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {
+
+    .blocks {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 30px;
+    }
+
+    section.content {
+        flex-direction: column;
+    }
+
+    .content__txt {
+        text-align: center;
+    }
+
+    .airpods {
+        flex-direction: column;
+    }
+
+    .content__img {
+        max-width: 40%;
+        width: 100%;
+    }
+
+    .airpods__txt {
+        text-align: center;
+    }
+
+    .airpods__txt2 {
+        text-align: center;
+    }
+
+    .hr1 {
+        margin: 20px 0;
+    }
+
+    .hr2 {
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .airpods__img {
+        width: 30%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        font-size: 50px;
+    }
+
+    .but {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer__items {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .content__txt {
+        font-size: 15px;
+    }
+
+    .airpods__txt {
+        font-size: 15px;
+    }
+
+    .airpods__txt2 {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .nav .container {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 320px) {}
